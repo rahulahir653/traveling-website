@@ -1,0 +1,104 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@900&family=Sansita+Swashed:wght@600&display=swap');
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    background-image: url(bacground\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+.logo{
+    height: 125px;
+    width: 125px;
+    margin-right: 200px;
+}
+.navbar,ul,li{
+    width: 80%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+font-family: 'Sansita Swashed', cursive;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+}
+a:hover{
+    color: white;
+    transition: .2s;
+    background-color: rgb(0, 22, 2);
+    border: 2px solid #f9004d;
+    border-radius: 80%;
+}
+    
+.first{
+    background-color: #f9004d;
+    
+    border: 2px solid;
+    font-weight: bold;
+    padding: 5px 30px;
+    border-radius: 30px;
+    border-color: #f9004d;
+    transition-duration: .4s;
+    color: white;
+}
+.first:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer
+}
+h1{
+
+     display: flex;
+     justify-content: center;
+     font-family: 'Merienda', cursive;
+     font-size: 50px;
+     background: -webkit-linear-gradient(#833ab4, #e20e0e,#48dfc6);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     cursor: pointer; 
+}
+
+.packej{
+       text-align: center;
+       font-family: 'Sansita Swashed', cursive;
+       font-size: 15px;
+      background-color: transparent;
+      color: rgb(170, 65, 0);
+      font-weight: bolder;
+      
+}
+.motu{
+   margin-right: 150px;
+   padding: 10px 35px;
+   font-size: medium;
+   background-color: transparent;
+   border: 2px solid black;
+}
+
+.patlu{
+    padding: 10px 40px;
+    font-size: medium;
+    background-color: transparent;
+}
+
+.motu:hover{
+    background-color: black;
+    color: rgb(182, 20, 20);
+    border: 2px solid rgb(14, 13, 13);
+    cursor: pointer
+}
+.patlu:hover{
+    background-color: black;
+    color: rgb(196, 45, 45);
+    border: 2px solid black;
+    cursor: pointer
+}
